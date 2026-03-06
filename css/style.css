@@ -22,28 +22,30 @@ background:#000;
 /* MENU */
 
 .menu{
+.menu{
 font-size:28px;
 cursor:pointer;
+color:#B8860B;
 }
 
-/* LOGO */
-
-.logo{
-position:absolute;
-left:50%;
-transform:translateX(-50%);
+.icones{
+display:flex;
+gap:15px;
+align-items:center;
 }
 
-.logo img{
-height:60px;
+.pesquisa{
+font-size:22px;
+cursor:pointer;
+color:#B8860B;
 }
-
-/* CARRINHO */
 
 .carrinho{
 font-size:24px;
 cursor:pointer;
-  }
+color:#B8860B;
+}
+  
 /* BANNER */
 
 .banner{
