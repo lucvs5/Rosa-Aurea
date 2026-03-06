@@ -1,1 +1,54 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#ffffff;
+}
 
+/* TOPO DA LOJA */
+
+.topo{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:15px 20px;
+border-bottom:1px solid #ddd;
+position:relative;
+}
+
+/* MENU */
+
+.menu{
+font-size:28px;
+cursor:pointer;
+}
+
+/* LOGO */
+
+.logo{
+position:absolute;
+left:50%;
+transform:translateX(-50%);
+}
+
+.logo img{
+height:60px;
+}
+
+/* CARRINHO */
+
+.carrinho{
+font-size:24px;
+cursor:pointer;
+  }
+/* BANNER */
+
+.banner{
+width:100%;
+overflow:hidden;
+}
+
+.banner img{
+width:100%;
+height:auto;
+display:block;
+}
