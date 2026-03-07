@@ -24,15 +24,26 @@ background:#000;
 .menu{
 font-size:28px;
 cursor:pointer;
-color:#fff;
 }
+
+/* LOGO */
+
+.logo{
+position:absolute;
+left:50%;
+transform:translateX(-50%);
+}
+
+.logo img{
+height:60px;
+}
+
+/* CARRINHO */
 
 .carrinho{
 font-size:24px;
 cursor:pointer;
-color:#fff;
-}
-  
+  }
 /* BANNER */
 
 .banner{
